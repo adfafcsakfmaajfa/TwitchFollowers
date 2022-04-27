@@ -4,14 +4,14 @@ const fetch = require('node-fetch'),
     request = require('request'),
     client = new Discord.Client(),
     XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest,
-    admins = ["yourid", "yourid", "yourid"],
+    admins = ["962061649051803708", "533506737274355713", "968916578555002970"],
     config = {
-        "yourroleid": 1500,
-        "yourroleid": 75,
-        "yourroleid": 50,
-        "yourroleid": 20,
-        "yourroleid": 10,
-        "yourroleid": 5
+        "951249793991196672": 1500,
+        "951226201123459078": 75,
+        "968553124497338428": 50,
+        "951226201123459077": 20,
+        "968596959176818718": 10,
+        "965394854328799274": 5
     } 
  
 var tokens = fs.readFileSync('./tokens.txt', 'utf-8');
@@ -245,4 +245,4 @@ client.on("guildMemberAdd", async (member) => {
     }
 })
 
-client.login("Token")
+client.login("OTY4OTE2NTc4NTU1MDAyOTcw.Ymlz4Q.rXfHR65VJFvtWac9fLwQ7rvNN7g")
